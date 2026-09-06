@@ -22,3 +22,28 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+
+# Generated Data
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Drone Videos
+*.mp4
+*.avi
+*.mov
+
+# VS Code
+.vscode/
